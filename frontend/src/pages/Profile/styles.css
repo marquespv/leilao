@@ -1,0 +1,93 @@
+/*
+.profile-container {
+    width:100;
+    max-width: 1180;
+    padding: 0 30px;
+    margin: 32px auto;
+
+}
+*/
+
+
+.profile-container header {
+display: flex;
+align-items: center;
+}
+
+
+/*
+.profile-container header span {
+    font-size: 20px;
+    margin-left: 24px;
+
+}
+*/
+
+/*
+.profile-container header img {
+    height: 64px;
+}
+*/
+
+
+.profile-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+    text-decoration: none;    
+}
+
+
+#btEdit{
+    height: 60;
+    width: 60;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;  
+    margin-left: 440px;    
+    
+    }
+    
+#btDelete{
+    height: 60;
+    width: 60;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;  
+    margin-left: 550px;    
+    
+}
+    
+
+#btLogout{
+    height: 60;
+    width: 60;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;  
+    margin-left: 550px;    
+}
+        
+
+/*
+.profile-container h1{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+*/
+
+
+.profile-container ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+    }
+
+
+
+.profile-container ul li {
+    background: #7d99c4;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
